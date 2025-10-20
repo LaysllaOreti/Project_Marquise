@@ -1,0 +1,32 @@
+/* ===== Home geral ===== */
+.homeContainer {
+  padding: 40px 50px;
+  background: #FAF6EC;
+  min-height: 100vh;
+}
+
+.homeTitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  text-shadow: 0 0 8px #ff5aa7, 0 0 16px #a020f0;
+  margin-bottom: 30px;
+}
+
+/* ===== Grid de filmes ===== */
+.movieGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 25px;
+}
+
+/* ===== Responsividade ===== */
+@media screen and (max-width: 768px) {
+  .homeContainer {
+    padding: 20px;
+  }
+  
+  .moviePoster {
+    height: 220px;
+  }
+}

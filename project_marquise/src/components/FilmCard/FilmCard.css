@@ -1,0 +1,40 @@
+.movieCard {
+  background: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px #ff5aa7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.moviePoster {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.movieInfo {
+  padding: 15px;
+  color: #fff;
+}
+
+.movieInfo h2 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.movieInfo p {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.detailsBtn {
+  padding: 6px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #ff5aa7;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}

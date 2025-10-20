@@ -1,0 +1,28 @@
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background: #222;
+  padding: 6px 12px;
+  border-radius: 25px;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.searchContainer input {
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 0.9rem;
+  width: 180px;
+  cursor: pointer;
+}
+
+.searchContainer input::placeholder {
+  color: #bbb;
+}
+
+.searchIcon {
+  font-size: 1.2rem;
+  color: #fff;
+}
